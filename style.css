@@ -1,22 +1,33 @@
-.bgred {
-  background-color: red;
-}
+.bgred {background-color: red;}
 .bgy{background-color: yellow;}
 
 #globalHeader nav {
-  xheight: 80px;
+    xheight: 80px;
 }
 
-#globalSearch
+.global-search 
+{
+    position: relative;
+}
+
+.global-search .glyphicon-search
+{
+    font-size: 30px;
+    left: 20px;
+    top: 30px;
+    position: absolute;
+}
+
+#globalSearchBar
 {
 	border: 1px solid #000;
 	margin-top: 20px;
-	padding: 10px;
+	padding: 10px 10px 10px 40px;
 	width: 300px;
 }
 
-#globalSearch:focus {
-  outline-color: #69c;
+#globalSearchBar:focus {
+    outline-color: #69c;
   
 }
 #logo img{
@@ -24,23 +35,23 @@
 }
 
 #logo:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 #shoppingCart{
-  font-size: 50px;
-  float: right;
-  margin-top: 16px;
+    font-size: 50px;
+    float: right;
+    margin-top: 16px;
 }
 
 /* Begin global nav styles */
 #globalNav {
-  background-color: #69C;
+    background-color: #69C;
 }
 
 #globalNav li a {
-  color: #FFF;
-  border-radius: 0;
+    color: #FFF;
+    border-radius: 0;
 }
 
 #globalNav li a:hover {
@@ -61,7 +72,6 @@
   background-color: #efefef;
   height: 100%;
 }
-
 
 .featured-items img
 {
@@ -93,6 +103,13 @@
 }
 
 .footer {
-  background-color: #CCC;
+  background-color: #dfdfdf;
   min-height: 150px;
+    height:100%;
+  overflow: auto;
+    display: block;   
+}
+
+.footer h5 {
+    font-weight: bold;
 }
