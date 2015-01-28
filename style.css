@@ -1,0 +1,98 @@
+.bgred {
+  background-color: red;
+}
+.bgy{background-color: yellow;}
+
+#globalHeader nav {
+  xheight: 80px;
+}
+
+#globalSearch
+{
+	border: 1px solid #000;
+	margin-top: 20px;
+	padding: 10px;
+	width: 300px;
+}
+
+#globalSearch:focus {
+  outline-color: #69c;
+  
+}
+#logo img{
+	height: 80px;
+}
+
+#logo:hover {
+  background-color: transparent;
+}
+
+#shoppingCart{
+  font-size: 50px;
+  float: right;
+  margin-top: 16px;
+}
+
+/* Begin global nav styles */
+#globalNav {
+  background-color: #69C;
+}
+
+#globalNav li a {
+  color: #FFF;
+  border-radius: 0;
+}
+
+#globalNav li a:hover {
+  color: #000;
+}
+/* End global nav styles */
+
+#globalPromo img{
+  width: 100%;
+  max-width: 1140px;
+}
+
+.sidebar {
+  min-height: 100px;
+}
+
+.product-filters {
+  background-color: #efefef;
+  height: 100%;
+}
+
+
+.featured-items img
+{
+  width:100%;
+  max-width: 555px;
+}
+/*
+.product-preview-area
+{
+	background-color: #e0e0e0;
+}
+*/
+.product-preview-item img {
+  width: 252px;
+}
+
+.img-placeholder {
+  background-color: rgba(0,0,0,.5);
+  border: 1px solid rgba(0,0,0,.9);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  min-height: auto;
+  height: 100%;
+  max-height: 252px;
+  min-width: auto;
+  width: 100%;
+}
+
+.footer {
+  background-color: #CCC;
+  min-height: 150px;
+}
