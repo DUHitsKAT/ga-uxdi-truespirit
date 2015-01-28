@@ -1,1 +1,29 @@
-@media()
+@media( max-width: 992px ){
+    .featured-items {
+        text-align: center;
+    }
+
+    
+    
+}
+
+@media ( min-width: 769px ){
+    
+    .product-preview-item {
+    }
+}
+
+@media ( max-width:768px ){
+    #sidebar{
+        display: none;
+    }
+    .product-preview-item img {
+        display: block;
+        margin: 0 auto;
+    }
+    .product-info {
+        margin: 0 auto;
+        width: 252px;
+    }
+
+}
